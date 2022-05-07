@@ -1,0 +1,40 @@
+/* background: #212121; Стиль основного цвета */
+
+.body {
+    background-color: #E5E5E5;
+    color: #212121;
+}
+
+.list {
+list-style: none;
+}
+
+/* header */
+
+.logo {
+    color: #2196F3;
+}
+
+.logo-accent {
+    color: #000000;
+}
+
+.studio {
+    color: #2196F3;
+}
+
+
+.basic {
+    color: #212121;
+}
+
+
+/* nav */
+
+.telephone {
+    color: #2196F3;
+}
+
+.email {
+    color: #757575;
+}
