@@ -5,7 +5,7 @@
     --primary-text-color: #212121;
     --title-text-color: #757575;
     --accent-color: #2196F3;
-    --background-color-header: #FFFFFF;
+    --background-color-white: #FFFFFF;
     --background-color-bg: #2F303A;
     --background-color-box: #E5E5E5;
     --background-color-section-bg: #F5F4FA;
@@ -22,7 +22,7 @@
 list-style: none;
 }
 
-/* < !-- Top line bg --> */
+/* Top line bg */
 
 .logo {
     font-family: 'Raleway';
@@ -70,17 +70,42 @@ list-style: none;
     color: var(--accent-color)
 }
 
-/* < !-- Bg --> */
+/* Bg */
 
 .section {
     background-color: var(--background-color-bg)
 }
 
 .section >.section-title {
-    color: var(--background-color-header)
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--background-color-white)
 }
 
-/* < !-- Bg-2 --> */
+.button {
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--background-color-white);
+    background-color: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+/* Bg-2 */
 
 .feature {
     background-color: var(--background-color-box)
@@ -107,7 +132,7 @@ list-style: none;
     color: var(--title-text-color)
 }
 
-/* < !-- What are we doing --> */
+/* What are we doing */
 
 .box {
     font-family: 'Roboto';
@@ -120,8 +145,36 @@ list-style: none;
     color: var(--primary-text-color)
 }
 
-/* < !-- Section bg --> */
+/* Section bg */
 
 .team {
     background-color: var(--background-color-section-bg)
+}
+
+/* footer */
+
+.adrees {
+    list-style: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--background-color-white)
+}
+
+.section .contacts {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color)
+}
+
+.section .contacts:hover,
+.section .contacts:focus {
+    color: var(--accent-color)
 }
