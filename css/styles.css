@@ -83,7 +83,7 @@ list-style: none;
     background-color: var(--background-color-bg)
 }
 
-.section >.section-title {
+.section .section-title {
     font-family: inherit;
     font-style: normal;
     font-weight: 900;
@@ -98,7 +98,7 @@ list-style: none;
 .button {
     cursor: pointer;
     font-family: inherit;
-    font-style: normal;
+    font-style: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -210,7 +210,7 @@ list-style: none;
 
 .button-pt {
     font-family: inherit;
-    font-style: normal;
+    font-style: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
